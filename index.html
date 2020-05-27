@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>A1</title>
+</head>
+<body id="conteudo">
+    <header>
+        <section id="acessibilidade" class="cor-secundaria">
+            <div class="container">
+                <ul id="atalhos">
+                    <li><a href="#menu" accesskey="1">[1] Menu</a></li>
+                    <li><a href="#descricao-do-curso" accesskey="2">[2] Ir para o conteúdo</a></li>
+                    <li><a href="#mapa-do-site" accesskey="3">[3] Mapa do Site</a></li>
+                    <li><a href="#rodape" accesskey="4">[4] Ir para o rodapé</a></li>
+                </ul>
+                <ul id="contraste">
+                    <li><img src="img/alto-contraste.png" onclick="altoContrast()" alt ="alto contraste" accesskey="5" title="Alto Contraste"></li>
+                    <li><a href="https://www.vlibras.gov.br/"><img src ="img/vlibras.png" alt ="link externo para o vlibras" accesskey="6" title="Link Para Vlibras"></a></li>
+                    <li><button title="Aumentar Fonte" onclick="aumentarLetra()" class="btnAD" accesskey="7">A+</button></li>
+                    <li><button title="Diminuir Fonte" onclick="diminuirLetra()" class="btnAD" accesskey="8">A-</button></li>
+                </ul>
+            </div>
+        </section>
+
+        <div class="clear"></div>
+
+        <nav id="menu" class="cor-primaria">
+            <div class="container">
+                <h1><a href="index.html">A1</a></h1>
+                <ul>
+                    <li><a href="#descricao-do-curso">Descrição do Curso</a></li>
+                    <li><a href="#grade-curricular">Grade Curricular</a></li>
+                    <li><a href="#video-de-divulgacao">Video de Divulgação</a></li>
+                    <li><a href="#formulario-de-contato">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <img id="logo" src="img/logo.png" alt="logo-sistemas-para-internet" title="Banner do cabeçario do site">
+    </header>
+    
+    <section id="descricao-do-curso">
+        <div class="card cor-secundaria">
+            <h2>Informações gerais</h2>
+            <p>Duração: 3 anos</p>
+            <p>Carga horária: 2800 horas</p>
+            <p>Horários: matutino</p>
+        </div>
+        
+        <div class="card cor-primaria">
+            <h2>Perfil profissional</h2>
+            <p>O tecnólogo formado neste curso ocupa-se do desenvolvimento de programas, de interfaces e aplicativos, do comércio e do marketing eletrônicos, além de sítios e portais para internet e intranet. Gerencia projetos de sistemas, inclusive com acesso a banco de dados, desenvolvendo projetos de aplicações para a rede mundial de computadores e integra mídias nos sítios da internet. Atua com tecnologias emergentes como computação móvel, redes sem fio e sistemas distribuídos. Cuidar da implantação, atualização, manutenção e segurança dos sistemas para internet também são suas atribuições.</p>
+        </div>
+        
+        <div class="card cor-secundaria">
+            <h2>Oportunidades profissional</h2>
+            <p>Empresas de assessoria e consultoria tecnológica e de desenvolvimento de sistemas; indústria; comércio; prestação de serviços; instituições financeiras; órgãos públicos; empreendedor em informática.</p>
+        </div>
+        
+    </section>
+
+    <div class="clear"></div>
+
+    <section id="grade-curricular" class="cor-secundaria">
+        <h2 class="center">Grade Curricular</h2>
+        <table class="center">
+            <tr class="cor-primaria">
+                <th>1º Ciclo</th>
+                <th>2º Ciclo</th>
+                <th>3º Ciclo</th>
+                <th>4º Ciclo</th>
+                <th>5º Ciclo</th>
+                <th>6º Ciclo</th>
+            </tr>
+            <tbody>
+                <tr>
+                    <td>Algoritmos e lógica de programação</td>
+                    <td>Estruturas de dados</td>
+                    <td>Acessibilidade</td>
+                    <td>Banco de dados e Internet II</td>
+                    <td>Desenvolvimento para Dispositivos Móveis I</td>
+                    <td>Arquitetura orientada a serviços</td>
+                </tr>
+                <tr>
+                    <td>Bases da Internet</td>
+                    <td>Inglês II</td>
+                    <td>Banco de dados e Internet I</td>
+                    <td>Desenvolvimento para Servidores I</td>
+                    <td>Desenvolvimento para Servidores II</td>
+                    <td>Criação de empresas para Internet</td>
+                </tr>
+                <tr>
+                    <td>Design digital</td>
+                    <td>Legislação aplicada à Internet</td>
+                    <td>Engenharia de software para web</td>
+                    <td>Inglês IV</td>
+                    <td>Inglês V</td>
+                    <td>Desenvolvimento para dispositivos móveis II</td>
+                </tr>
+                <tr>
+                    <td>Fundamentos de matemática elementar</td>
+                    <td>Matemática discreta</td>
+                    <td>Estatística</td>
+                    <td>Projeto de navegação e Interação</td>
+                    <td>Negócios e Marketing Eletrônicos</td>
+                    <td>Inglês VI</td>
+                </tr>
+                <tr>
+                    <td>Inglês I</td>
+                    <td>Padrões de projeto de sítios Internet II</td>
+                    <td>Inglês III</td>
+                    <td>Prática de Gestão de Projetos</td>
+                    <td>Projeto de prototipagem e testes de Usabilidade</td>
+                    <td>Projeto de trabalho de graduação em sistemas</td>
+                </tr>
+                <tr>
+                    <td>Leitura e produção de textos</td>
+                    <td>Prática de design</td>
+                    <td>Programação de sítios Internet</td>
+                    <td>Segurança em sistemas para Internet</td>
+                    <td>Projeto do trabalho de graduação em Sistemas</td>
+                    <td>Tópicos especiais em sistemas para Internet I</td>
+                </tr>
+                <tr>
+                    <td>Padrões de projeto de sítios Internet I</td>
+                    <td>Redes e Internet</td>
+                    <td>Servidores e seus sistemas operacionais</td>
+                    <td>Tópicos especiais em sistemas para Internet I</td>
+                    <td>Tópicos Especiais em Sistemas para Internet II</td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>   
+    </section>
+
+    <section id="video-de-divulgacao">
+        <embed width="560" height="315" src="https://www.youtube.com/embed/uT1WVZrrfxg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
+    </section>
+
+    <section id="formulario-de-contato" class="cor-secundaria">
+        <div class="container">
+          <h1 class="center">Formulário de Contato</h1>
+          <form action="http://hub.fatecrl.edu.br/sobrino/recebe.php" method="get">
+            <div class="card-formulario">
+              <label for="name">Nome</label>
+              <input type="text" name="name" id="name" required>
+            </div>
+            <div class="card-formulario">
+              <label for="email">E-mail</label>
+              <input type="email" name="email" id="email" required>
+            </div>
+            <div class="card-formulario">
+              <label for="mensagem">Mensagem</label>
+              <textarea name="mensagem" id="mensagem" required></textarea>
+            </div>
+            <button type="submit" class="botao cor-primaria">Enviar</button>
+          </form>
+        </div>
+    </section>
+
+    <section id="mapa-do-site" class="cor-secundaria">
+        <div class="container">
+            <h2 class="center">Mapa do Site</h2>
+            <div class="card-mapa">
+                <h3><a href="#descricao-do-curso">Descrição do Curso</a></h3>
+                <ul>
+                    <li>Informações gerais</li>
+                    <li>Perfil profissional</li>
+                    <li>Oportunidades profissional</li>
+                </ul>
+            </div>
+            
+            <div class="card-mapa">
+                <h3><a href="#grade-curricular">Grade Curricular</a></h3>
+                <ul>
+                    <li>1º Ciclo</li>
+                    <li>2º Ciclo</li>
+                    <li>3º Ciclo</li>
+                    <li>4º Ciclo</li>
+                    <li>5º Ciclo</li>
+                    <li>6º Ciclo</li>
+                </ul>
+            </div>
+            
+            <div class="card-mapa">
+                <h3><a href="#video-de-divulgacao">Video de Divulgação</a></h3>
+                <ul>
+                    <li>Vídeo</li>
+                </ul>
+            </div>
+
+            <div class="card-mapa">
+                <h3><a href="#formulario-de-contato">Contato</a></h3>
+                <ul>
+                    <li>Formulário de Contato</li>
+                </ul>
+            </div>
+            
+        </div>
+    </section>
+
+    <footer id="rodape" class="cor-primaria">
+        <p class="center">A1 - Manoel, Rafael e Roberto. Todos os Direitos Reservados © .</p>
+    </footer>
+
+    <script>
+        var n = 1
+        function altoContrast(){
+            var q = document.querySelectorAll("tr")
+            var s = document.querySelectorAll("button")
+            var t = document.querySelectorAll("a")
+            var u = document.querySelector("footer")
+            var v = document.querySelector("tr")
+            var x = document.querySelectorAll('section');
+            var y = document.querySelector('nav')
+            var z = document.querySelectorAll('div')
+            n += 1
+            if(n % 2 == 0){
+                document.body.style.backgroundColor = "black"
+                document.body.style.color = "white"
+                u.style.backgroundColor = "black"
+                v.style.backgroundColor = "black"
+                y.style.backgroundColor = "black"
+                for(var i = 0; i < x.length;i++){
+                    x[i].style.backgroundColor = "black"
+                }  
+                for(var i = 0; i < z.length;i++){
+                    z[i].style.backgroundColor = "black" 
+                }  
+                for(var i = 0; i < t.length;i++){
+                    t[i].style.color = "yellow" 
+                } 
+                for(var i = 0; i < s.length;i++){
+                    s[i].style.color = "yellow" 
+                    s[i].style.backgroundColor = "black"
+                }
+
+                for(var i = 0; i < q.length;i++){  
+                    q[i].style.color = "yellow" 
+                    q[i].style.backgroundColor = "black"
+                    
+                
+                }
+            }
+            else{
+                document.location.reload(true);
+            }
+        }
+        function aumentarLetra(){
+            var font = document.getElementById("conteudo").style.fontSize;
+            font = font.replace("px","");
+            
+            if(font == ""){		 
+                document.getElementById("conteudo").style.fontSize = "13px";
+            }else{
+            document.getElementById("conteudo").style.fontSize = (parseInt(font)+1)+"px";
+            }    
+        }
+
+        function diminuirLetra(){
+            var font = document.getElementById("conteudo").style.fontSize;
+            font = font.replace("px","");
+                if(font == ""){		 
+                    document.getElementById("conteudo").style.fontSize = "11px";
+                
+                }else{
+                document.getElementById("conteudo").style.fontSize = (parseInt(font)-1)+"px";
+            }
+             
+        } 
+    </script>
+</body>
+</html>
